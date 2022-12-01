@@ -1,0 +1,380 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(12, 17, 22);
+    color: white;
+}
+
+#details{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: rgb(150, 153, 156);
+    color: black;
+}
+.header {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.header__logo {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav:hover {
+    opacity: 0.8;
+    
+}
+
+.destaques {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.subtitle__destaques {
+    text-align: center;
+    padding: 110px 100px 100px 100px;
+}
+
+.button-carousel {
+    top: 120px;
+    background-color: rgba(100, 100, 100, 0.541);
+    opacity: 1;
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 40px;
+}
+
+.carousel-item .row {
+    min-height: 500px;
+}
+
+.avaliacao p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.destaque {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background: #212529;
+}
+
+.categoria {
+    text-align: right;
+}
+
+.img-destaque {
+    transition: 0.5s transform ease-in-out;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+}
+
+.img-destaque:hover {
+    transform: scale(1.2);
+}
+
+.destaque div {
+    margin-bottom: 20px;
+}
+
+.button-funcional {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: rgb(118 118 118 / 58%);
+    border-color: #212529;
+    border-radius: 20px;
+}
+
+.avaliacoes {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.avaliacoes div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.avaliacoes img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+}
+
+.avaliador {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-avaliacoes {
+    border-radius: 5px;
+    background-color: rgb(118 118 118 / 58%);
+    color: white;
+    margin-top: 15px;
+}
+
+.entrevistas {
+    padding: 30px 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background: #212529;
+}
+
+.entrevistas div {
+    margin-bottom: 20px;
+}
+
+.novidades {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.novidades img {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+}
+
+.materia {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.materia__meio {
+    padding: 20px;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.text-materia {
+    width: calc(100% - 210px);
+    padding: 0 10px;
+}
+
+.img-materia,
+.text-materia {
+    display: inline-block;
+}
+
+.img-materia {
+    width: 200px;
+    margin-top: 5px;
+    vertical-align: top;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s transform ease-in-out;
+}
+
+.img-materia:hover {
+    transform: scale(1.1);
+}
+
+.sobre {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.editorial {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.editorial-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.redes-sociais {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s transform ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+div.container section#section-pesquisa {
+    padding: 80px 10px 5px;
+    overflow: hidden;
+}
+  
+section#section-pesquisa img {
+    height: auto;
+    min-width: 100%;
+
+}
+  
+.page-item.disabled .text-info {
+    color: gray !important;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.col-12 {
+    margin-bottom: 10px;
+  }
+  
+  section#section-avaliacoes div.cards-avaliacao div.card {
+    min-height: 200px;
+  }
+
+
+@media screen and (max-width: 970px) {
+    .menu1 {
+        display: none;
+    }
+    .menu-mobile {
+        display: inherit;
+        position: absolute;
+        top: 20px;
+        left: 88%;
+    }
+    .pesquisar {
+        position: absolute;
+        top: 25px;
+        left: 40%;
+    }
+    .texto-lancamento {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .header {
+        background-color: rgb(235, 235, 235);
+    }
+    .logo-nav {
+        display: none;
+    }
+    .menu1 {
+        display: none;
+    }
+    .menu-mobile {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 90%;
+    }
+    .pesquisar {
+        position: inherit;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .avaliacoes img {
+        display: none;
+    }
+    .avaliador {
+        margin-top: 20px;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+    .avaliador:nth-child(4) {
+        border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1544px) {
+    .menu1 {
+        position: absolute;
+        top: 25px;
+        left: 20%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .texto-lancamento {
+        margin-top: 20px;
+    }
+    .entrevista-all {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .novidades img {
+        width: 200px;
+        border-radius: 5px;
+    }
+    .novidades h1 {
+        text-align: center;
+    }
+    .img-materia,
+    .text-materia {
+        display: block;
+        width: 100%;
+    }
+    .img-materia img {
+        width: 100%;
+    }
+    .text-materia {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+    .materia {
+        margin-bottom: 10px;
+    }
+    .sobre {
+        margin-top: 10px;
+    }
+    .sobre .texto-sobre {
+        margin-bottom: 40px;
+    }
+    .novidades h1 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 991px) {
+    .produtoras-row {
+      position: absolute;
+      bottom: 0;
+      left: 30%;
+    }
+    }
+

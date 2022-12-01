@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Portal de Games</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+</head>
+
+<body>
+    <div>
+        <nav class="header navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="assets/logogames.png" alt="Logo do site" class="header__logo" />
+                </a>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <nav class="navbar-nav me-auto mb-2 mb-md-0">
+                        <a class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#destaques">Destaques</a>
+                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-avaliacoes">Avaliações</a>
+                        </li>
+                        <a class="nav-item">
+                            <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                        </a>
+                        <a class="nav-item">
+                            <a class="nav-link" href="#plataformas">Plataformas</a>
+                        </a>
+                        <a class="nav-item">
+                            <a class="nav-link" href="#publishers">Publishers</a>
+                        </a>
+                    </nav>
+                    
+
+                      <form id="pesquisa-form" class="form-inline my-2 my-lg-0">
+                        <div class="input-group mb-3">
+                            <input type="text" id="input-search" class="form-control" placeholder="Pesquisar"
+                                aria-label="Pesquisar" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-info" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+        
+        <main class="container">
+            <section class="row destaques" id="destaques">
+                <h1 class="subtitle__destaques">Destaques</h1>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-12 col-sm-12 col-lg-12">
+                                <div class="row">
+                                    <iframe width="100%" height="368" src="https://www.youtube.com/embed/E3Huy2cdih0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col"></iframe>
+                                    <div class="col">
+                                        <h1>Elden Ring</h1>
+                                        <p>
+                                            <b>Sobre:</b> O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, 
+                                            e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias
+                                        </p>
+
+                                        <div>
+                                            <div>
+                                            <span><b>Publisher:</b> FromSoftware Inc.</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Lançamento:</b> 24/Feb/2022</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Plataformas:</b> PlayStation4, Xbox Series X e Series S, Xbox One, 
+                                                     PlayStation 5, Microsoft Windows</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Gênero:</b> RPG, Aventura, Mundo aberto</span>
+                                            </div>
+                                            
+                                            <p class="fw-bold pt-3">Avaliação: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i></p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-12 col-sm-12 col-lg-12">
+                                <div class="row">
+                                    <iframe width="100%" height="368" src="https://www.youtube.com/embed/5LeTYy3XOz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col"></iframe>
+                                    <div class="col">
+                                        <h1>The Last of Us Part II</h1>
+                                        <p>
+                                            <b>Sobre:</b> Cinco anos depois da jornada perigosa pelos Estados Unidos pós-pandêmicos, 
+                                            Ellie e Joel se estabelecem em Jackson, Wyoming.A vida em uma próspera comunidade de 
+                                            sobreviventes lhes trouxe paz e estabilidade, apesar da ameaça constante dos infectados e 
+                                            de outros sobreviventes mais desesperados. Quando um evento violento interrompe essa paz, 
+                                            Ellie embarca em uma jornada implacável para fazer justiça e encontrar uma solução. Enquanto 
+                                            vai atrás de cada um dos responsáveis, ela se confronta com as repercussões físicas e 
+                                            emocionais devastadoras de suas ações.
+                                        </p>
+
+                                        <div>
+                                            <div>
+                                            <span><b>Publisher:</b>Sony Interactive Entertainment</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Lançamento:</b> 19/Jun/2020</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Plataformas:</b> PlayStation4, PlayStation 5</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Gênero:</b> Aventura, Survival Horror, Furtividade</span>
+                                            </div>
+                                            
+                                            <p class="fw-bold pt-3">Avaliação: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star"></i></p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-12 col-sm-12 col-lg-12">
+                                <div class="row">
+                                    <iframe width="100%" height="368" src="https://www.youtube.com/embed/2MD4gTitmzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col"></iframe>
+                                    <div class="col">
+                                        <h1>Dying Light 2 Stay Human</h1>
+                                        <p>
+                                            <b>Sobre:</b>O vírus venceu. A civilização voltou à Idade das Trevas. A Cidade, 
+                                            um dos últimos locais dos humanos, está prestes a entrar em colapso. Use sua agilidade 
+                                            e habilidades de combate para sobreviver e transformar o mundo. Suas escolhas fazem a diferença.
+                                        </p>
+
+                                        <div>
+                                            <div>
+                                            <span><b>Publisher:</b>Techland</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Lançamento:</b> 04/Fev/2022</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Plataformas:</b> PlayStation 4, PlayStation 5, Xbox One, Nintendo Switch, 
+                                                Xbox Series X e Series S, Microsoft Windows</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Gênero:</b> Aventura, Survival Horror, Ação</span>
+                                            </div>
+                                            
+                                            <p class="fw-bold pt-3">Avaliação: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                                class="fa-regular fa-star"></i></p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-12 col-sm-12 col-lg-12">
+                                <div class="row">
+                                    <iframe width="100%" height="368" src="https://www.youtube.com/embed/AnLEKI6S0JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col"></iframe>
+                                    <div class="col">
+                                        <h1>Bayonetta 3</h1>
+                                        <p>
+                                            <b>Sobre:</b>Bayonetta percorrerá vários lugares em um jogo de ação com climax totalmente novo 
+                                            e espetacular. Ostentando um novo traje perverso e seu conhecido cabelo com um rabo de cavalo,
+                                             a protagonista Umbra Witch deve enfrentar um mal misterioso usando suas armas distintas e a 
+                                             habilidade Witch Time. Desta vez, armas biológicas invasoras do universo chamadas Homunculi 
+                                             encontram-se no caminho de Bayonetta.
+                                        </p>
+
+                                        <div>
+                                            <div>
+                                            <span><b>Publisher:</b>PlatinumGames</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Lançamento:</b> 28/Oct/2022</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Plataformas:</b> Nintendo Switch</span>
+                                            </div>
+                                            <div>
+                                            <span><b>Gênero:</b> Aventura, Luta, Ação, Hack and Slash</span>
+                                            </div>
+                                            
+                                            <p class="fw-bold pt-3">Avaliação: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                                class="fa-regular fa-star"></i></p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev button-carousel" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next button-carousel" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+           
+            <section class="row destaque" id="lancamentos">
+                <div class="col-12">
+                    <h1>Lançamentos</h1>
+                </div>
+
+                
+                <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                    <a href="https://www.youtube.com/watch?v=AnLEKI6S0JA&t=1s" title="Trailer Bayonetta" target="_blank">
+                        <img src="assets/bayoimg.png" class="img-destaque" alt="" />
+                    </a>
+                </div>
+
+                <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                    <a href="https://www.youtube.com/watch?v=x6oF3Jxu7X0" title="Trailer God of War Ragnarok" target="_blank">
+                        <img src="assets/gowrimg.png" class="img-destaque" alt="" />
+                    </a>
+                </div>
+
+                <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                    <a href="https://www.youtube.com/watch?v=Lq594XmpPBg" title="Trailer Horizon Forbidden West" target="_blank">
+                        <img src="assets/horizonimg.jpg" class="img-destaque" alt="" />
+                    </a>
+                </div>
+
+                <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                    <a href="https://www.youtube.com/watch?v=1tBUsXIkG1A" title="Trailer Gran Turismo 7" target="_blank">
+                        <img src="assets/granturimg.jpg" class="img-destaque" alt="" />
+                    </a>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                                <div>
+                                    <a href="https://www.youtube.com/watch?v=kJawWyRUOBM" title="Trailer Stray" target="_blank">
+                                        <img src="assets/strayimg.jpg" class="img-destaque" alt="" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+
+                                <div>
+                                    <a href="https://www.youtube.com/watch?v=IhVf_3TeTQE" title="Trailer Gotham Knights" target="_blank">
+                                        <img src="assets/gothamimg.jpg" class="img-destaque" alt="" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+
+                                <div>
+                                    <a href="https://www.youtube.com/watch?v=H3LAkr0ANgw" title="Trailer kirby and the forgotten land" target="_blank">
+                                        <img src="assets/kirbyimg.jpg" class="img-destaque" alt="" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-6">
+                            <div class="collapse multi-collapse" id="multiCollapseExample4">
+
+                                <div>
+                                    <a href="https://www.youtube.com/watch?v=GUYDXVDLmns" title="Trailer Splatoon 3" target="_blank">
+                                        <img src="assets/splatoon3img.jpg" class="img-destaque" alt="" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-funcional">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"> Carregar mais
+                            lançamentos</button>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="row avaliacoes" id="plataformas">
+                <h1>Plataformas</h1>
+
+                
+                <div class="col-12 col-lg-4 col-sm-12 plataforma-all">
+                    <div>
+                        <h5><b>Playstation</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/playsimg.jpg" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>God of War Ragnarok</li>
+                                <li>The Last of Us</li>
+                                <li>Spider-Man</li>
+                            </ul></span>
+                        <br />
+                        
+                    </div>
+                </div>
+                
+
+                <div class="col-12 col-lg-4 col-sm-12 plataforma">
+                    <div>
+                        <h5><b>Nintendo Switch</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/nintemimg.png" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>The Legend of Zelda: Breath of the Wild</li>
+                                <li>Super Mario Odyssey</li>
+                                <li>Mario Kart 8</li>
+                            </ul></span>
+                        <br />
+                       
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-sm-12 plataforma">
+                    <div>
+                        <h5><b>Xbox Series</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/xseries.jpg" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>Halo Infinite</li>
+                                <li>Gears 5</li>
+                                <li>Forza Horizon</li>
+                            </ul></span>
+                        <br />
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-4 avaliador">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                                <div>
+                                    <div>
+                                        <h5><b>Microsoft Computer</b></h5>
+                                    
+                                    </div>
+                                    <div>
+                                        <img src="assets/pcimg.jpg" class="img-destaque" alt="" />
+                                    </div>
+                
+                                    <div>
+                                        <h5><b>Principais jogos:</b></h5>
+                                        <span>
+                                            <ul>
+                                                <li>Valheim</li>
+                                                <li>Loop Hero</li>
+                                                <li>Wildermyth</li>
+                                            </ul></span>
+                                        <br />
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <div class="button-funcional">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"> Carregar mais
+                            plataformas</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="row entrevistas" id="Publishers">
+                <h1>Publishers</h1>
+
+                <div class="col-12 col-lg-4 col-sm-12 plataforma">
+                    <div>
+                        <h5><b>FromSoftware Inc</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/fromimg.jpg" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>Elden Ring</li>
+                                <li>Dark Souls</li>
+                                <li>Bloodborne</li>
+                            </ul></span>
+                        <br />
+                        
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-sm-12 plataforma">
+                    <div>
+                        <h5><b>Ubisoft</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/ubimg.jpg" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>Assasin's Creed</li>
+                                <li>Far Cry</li>
+                                <li>Watch Dogs</li>
+                            </ul></span>
+                        <br />
+                        
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-sm-12 plataforma">
+                    <div>
+                        <h5><b>Sony Interactive Entertainment</b></h5>
+                    
+                    </div>
+                    <div>
+                        <img src="assets/sonyimg.jpg" class="img-destaque" alt="" />
+                    </div>
+
+                    <div>
+                        <h5><b>Principais jogos:</b></h5>
+                        <span>
+                            <ul>
+                                <li>Gran Turismo 7</li>
+                                <li>Until Dawn</li>
+                                <li>Ghost of Tsushima</li>
+                            </ul></span>
+                        <br />
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 col-sm-12 entrevista-all">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                                <div>
+                                    <h5><b>Techland</b></h5>
+                                
+                                </div>
+                                <div>
+                                    <img src="assets/Techland.jpg" class="img-destaque" alt="" />
+                                </div>
+            
+                                <div>
+                                    <h5><b>Principais jogos:</b></h5>
+                                    <span>
+                                        <ul>
+                                            <li>Dying Light</li>
+                                            <li>Dead Island</li>
+                                            <li>Call of Juarez</li>
+                                        </ul></span>
+                                    <br />
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 col-sm-12 entrevista-all">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+
+                                <div>
+                                    <h5><b>Eletronic Arts</b></h5>
+                                
+                                </div>
+                                <div>
+                                    <img src="assets/eaimg.jpg" class="img-destaque" alt="" />
+                                </div>
+            
+                                <div>
+                                    <h5><b>Principais jogos:</b></h5>
+                                    <span>
+                                        <ul>
+                                            <li>Fifa 22</li>
+                                            <li>Battlefield</li>
+                                            <li>Apex Legends</li>
+                                        </ul></span>
+                                    <br />
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-funcional">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"> Carregar mais
+                            avaliações</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row" id="novidades">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 novidades">
+                    <h1 class="subtitle">Sobre</h1>
+                    <div class="materia">
+                        <div class="text-materia">
+                            <p>
+                                Meu nome é Lucas, sou aluno da PUC Minas e curso Ciência da Computação. Este é o trabalho prático 1 da disciplina "Desenvolvimento em Interfaces Web" (DIW) que consiste em criar um layout de um portal de games utilizando HTML e CSS (com ou sem Bootstrap).
+                            </p>
+                        </div>
+                    </div>
+
+    
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 sobre">
+                
+                    <div class="editorial">
+                        <h1 class="subtitle">Editorial</h1>
+                        <p>
+                            
+                            <b>Aluno:</b> Lucas Morato de Oliveira Xavier
+                        </p>
+                        <p>
+                           
+                            <b>Matrícula:</b> 541509
+                        </p>
+                        <p>
+                            
+                            <b>Instituição:</b> PUC Minas
+                        </p>
+                        <p>
+                           
+                            <b>Disciplina:</b> Desenvolvimento em Intefaces Web
+                        </p>
+                    </div>
+
+                    <div class="subtitle">
+                        <h1>Redes Sociais</h1>
+                        <div class="redes-sociais">
+                            <a  href="https://www.facebook.com/lucas.morato.12" title="facebook" target="_blank" class="fa fa-facebook">
+                            </a>
+                            <a href="https://www.instagram.com/lukaomorato/" title="instagram" target="_blank" class="fa fa-instagram">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Copyright © 2022. All rights reserved</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2f4b8f5acd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
